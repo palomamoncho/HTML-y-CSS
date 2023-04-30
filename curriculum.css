@@ -1,0 +1,70 @@
+body {
+  background-color: #f7f7f7;
+}
+
+/* Dar estilo al encabezado */
+header {
+  color: black;
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+  width: 0;
+  font-size: 15px;
+  max-width: 100%;
+  white-space: nowrap;
+}
+
+body {
+  font-size: 16px;
+  font-family: Georgia, serif;
+  background: linear-gradient(to right, white 30%, pink 70%);
+}
+#resumen {
+  float: left;
+}
+#formación {
+  font: 5px;
+  font-size: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+#Perfil {
+  float: right;
+  text-align: center;
+  width: 800%;
+  font-size: 20px;
+  max-width: 10%;
+  white-space: pre-line;
+  text-indent: 0px;
+  max-width: calc(70% - 30px);
+  word-wrap: break-word;
+  overflow-x: hidden;
+  margin-top: -400px;
+}
+
+section {
+    float: auto;
+    width: 10;
+    text-align: center;
+}
+
+/* Dar estilo a los títulos */
+#h2 {
+  margin: 0;
+  font-size: 16px;
+}
+
+/* Dar estilo a los enlaces */
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Dar estilo a las secciones */
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}img {
+  width: 200px;
+  height: auto;
+  margin-left: 100px;
+}
