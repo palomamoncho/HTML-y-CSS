@@ -1,68 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<title>Mi currículum</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="curriculum.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum</title>
+    <link rel="stylesheet" href="newcurriculum.css">
 </head>
 <body>
-	<header>
-		<h1>Paloma Moncho Pinilla</h1>
-    </header>
-    <img src="foto curriculum.jpg" alt="">
-	<main>
-        <section id="resumen">
-            <article>
-                <p>Dirección:Pol.Industrial les jovades calle 8 de Marzo nº7</p>
-		        <p>Correo electrónico: palomamoncho18@gmail.com</p>
-                <P>Número de teléfono: 692546789</P>
-            </article>
-        <section id="Formación">
-            <article>
-                <h2>Formación académica</h2>
-                <h3>Bachillerato Científico</h3>
-                <p>Instituto Ies Cotes Baixes
-                    2019-2021
+    <header></header>
+
+    <section class="contenedor">
+        <!-- Sección Izquierda (Foto y Contacto) -->
+        <aside class="sidebar">
+            <img src="C:\Users\Paloma\Pictures\Screenshots\Captura de pantalla (30).png" alt="Foto de Paloma Moncho" class="foto">
+
+            <section id="contacto">
+                <h2>Contacto</h2>
+                <p><span class="icon">&#9993;</span> <a href="mailto:palomamoncho18@gmail.com">palomamoncho18@gmail.com</a></p>
+                <p><span class="icon">&#9742;</span> 692 546 789</p>
+                <p><span class="icon">&#128279;</span> <a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a></p>
+                <p><img src="C:\Users\Paloma\Pictures\Screenshots\Captura de pantalla 2025-03-11 164911.png" alt="Logo de GitHub" style="width: 30px; height: 30px;"> <a href="https://github.com/palomamoncho/" target="_blank">GitHub</a></p>
+                <p>
+                    <a href="https://github.com/palomamoncho/" target="_blank" title="Ver mi repositorio de GitHub">
+                    </a> 
                 </p>
-                <h3>Educación Secundaria Obligatoria(ESO)</h3>
-                <p>La Salle
-                    2014-2018
-                </p>
-        </section>
-            </article>
-        </section>
-        <section id="Perfil">
-            <article>
+                <section id="habilidades">
+                    <h2>Habilidades Técnicas</h2>
+                    <ul>
+                        <li>Programación: Java, C++, SQL.</li>
+                        <li>Herramientas: GitHub, Excel, Docker.</li>
+                        <li>Sistemas Operativos: Windows, Linux.</li>
+                    </ul>
+                    <ul id="habilidades-blandas">
+                    <h2>Habilidades blandas</h2>
+                        <li>Comunicación efectiva</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Liderazgo</li>
+                        <li>Adaptabilidad</li>
+                        <li>Gestión del tiempo</li>
+                    </ul>
+                    <ul id="habilidades-avanzadas">
+                    <h2>Habilidades avanzadas</h2>
+                        <li>Desarrollo de software con Java y Python</li>
+                        <li>Administración de bases de datos MySQL y PostgreSQL</li>
+                        <li>Arquitectura de redes Cisco</li>
+                        <li>Automatización de procesos con scripts en Bash</li>
+                    </ul>
+                    <ul id="idiomas">
+                        <h2>Idiomas</h2>
+                            <li>Castellano</li>
+                            <li>Valenciano</li>
+                            <li>Inglés B1</li>
+                        </ul>
+                </section>
+            </section></aside>
+            
+
+        <!-- Sección Derecha (Perfil, Formación, Experiencia) -->
+        <main class="contenido">
+            <section id="perfil">
                 <h2>Perfil</h2>
-	                <p>Estudiante con actitud emprendedora y con muchas ganas de continuar formándome.
-                    Enfrentar nuevos retos laborales es uno de mis objetivos para continuar mi 
-                    crecimiento personal y profesional, además de adquirir nuevas habilidades y 
-                    conocimientos para aplicarlos de manera experta en un futuro. 
-                    </p>
-                </article>
-            <article>
-                <h2>Experiencia laboral</h2>
-                <h1></h1>
-			    <h3>La Española Alimentaria Alcoyana</h3>
-			    <p>Abril-Junio 2022</p>
-                <p>Funciones: Operaria de limpieza. Barrer y aspirar, lavar
-                y pulir los pisos. Limpiar baños, suministrar toallas, jabón y
-                artículos relacionados.
-                Número de contacto: 965 33 08 01
-                </p>
-            </article>
-            <article>
-			<h2>Datos adicionales</h2>
-			<ul>
-				<li>Carnet de conducir B1 con vehículo propio.</li>
-				<li>Conocimiento de inglés hablado y escrito
-                    actualmente en desarrollo el nivel intermedio B2
-                </li>
-				<li>Lenguas maternas castellano y valenciano</li>
-			</ul>
-        </article>  
-        </section>   
-	</main>
+                <p>Soy una estudiante con actitud emprendedora y muchas ganas de continuar formándome. Enfrentar nuevos retos laborales es uno de mis objetivos para continuar mi crecimiento personal y profesional, además de adquirir nuevas habilidades y conocimientos para aplicarlos de manera experta en un futuro.</p>
+            </section>
+
+            <section id="formacion">
+                <h2>Formación Académica</h2>
+                <h3><b>Grado Superior (ASIR)</b></h3>
+                <p><strong>Administración de Sistemas Informáticos en Red</strong> (2022-2024)</p>
+                <h3>Bachillerato Científico</h3>
+                <p><strong>Instituto IES Cotes Baixes</strong> (2019-2021)</p>
+                <h3>Educación Secundaria Obligatoria (ESO)</h3>
+                <p><strong>La Salle</strong> (2014-2018)</p>
+            </section>
+            <section id="Certificaciones">
+                <h2>Cursos profesionales</h2>
+                <h3>Programación</h3>
+                <h3>Excel</h3>
+            </section>
+
+            <section id="experiencia">
+                <h2>Experiencia Laboral</h2>
+                <h3>Punto de venta y promoción plv S.L</h3>
+                <p><strong>Fecha:</strong>2024</p>
+                <p><strong>Funciones:</strong> Operaria de producción en montaje.</p>
+                <p><strong>Contacto:</strong>IMAN Temporing ETT Alcoy</p>
+            </section>
+            <section id="experiencia">
+                <h3>Image Makers</h3>
+                <p><strong>Fecha:</strong>2023</p>
+                <p><strong>Funciones:</strong>Producción en montaje. Uso de pistola de cola termofusible.</p>
+                <p><strong>Contacto:</strong>IMAN Temporing ETT Alcoy</p>
+            </section>
+            <section id="experiencia">
+                <h3>La Española Alimentaria Alcoyana</h3>
+                <p><strong>Fecha:</strong>2022</p>
+                <p><strong>Funciones:</strong> Operaria de limpieza: Barrer y aspirar, lavar y pulir los pisos, limpiar baños, suministrar toallas, jabón y artículos relacionados.</p>
+                <p><strong>Contacto:</strong> 965 33 08 01</p>
+            </section>
+
+            <section id="datos-adicionales">
+                <h2>Datos Adicionales</h2>
+                <p>Carnet de conducir B1 con vehículo propio.</p>
+                <p>Conocimiento de inglés hablado y escrito (actualmente en desarrollo, nivel intermedio B2).</p>
+                <p>Lenguas maternas: Castellano y Valenciano.</p>
+                <p>Carnet de carretilla elevadora en vigor</p>
+            </section>
+            
+        </main>
+    </section>
+
+    <footer></footer>
 </body>
 </html>

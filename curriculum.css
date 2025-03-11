@@ -1,70 +1,165 @@
+/* Estilos generales */
 body {
-  background-color: #f7f7f7;
-}
-
-/* Dar estilo al encabezado */
-header {
-  color: black;
-  padding: 20px;
-  margin: 30px;
-  text-align: center;
-  width: 0;
-  font-size: 15px;
-  max-width: 100%;
-  white-space: nowrap;
-}
-
-body {
-  font-size: 16px;
-  font-family: Georgia, serif;
-  background: linear-gradient(to right, white 30%, pink 70%);
-}
-#resumen {
-  float: left;
-}
-#formación {
-  font: 5px;
-  font-size: 10px;
-  font-family: 'Times New Roman', Times, serif;
-}
-#Perfil {
-  float: right;
-  text-align: center;
-  width: 800%;
-  font-size: 20px;
-  max-width: 10%;
-  white-space: pre-line;
-  text-indent: 0px;
-  max-width: calc(70% - 30px);
-  word-wrap: break-word;
-  overflow-x: hidden;
-  margin-top: -400px;
-}
-
-section {
-    float: auto;
-    width: 10;
-    text-align: center;
-}
-
-/* Dar estilo a los títulos */
-#h2 {
+  font-family: Arial, sans-serif;
   margin: 0;
-  font-size: 16px;
-}
-
-/* Dar estilo a los enlaces */
-a {
+  padding: 0;
+  background-color: white;
   color: #333;
-  text-decoration: none;
+}
+#perfil {
+  font-family: 'Georgia', serif;  /* Fuente más profesional */
+  font-size: 16px;  /* Tamaño adecuado para el texto */
+  line-height: 1.5;  /* Mejor legibilidad */
+  color: #555;  /* Gris oscuro para una mejor lectura */
+  margin-top: 20px;
 }
 
-/* Dar estilo a las secciones */
-section {
+#perfil p {
+  margin-bottom: 15px;  /* Espaciado entre párrafos */
+}
+
+#formacion {
+  font-family: 'Georgia', serif; /* Fuente más profesional */
+  font-size: 16px;  /* Tamaño de texto adecuado */
+  line-height: 1.5;  /* Espaciado entre líneas */
+  color: #555;  /* Gris oscuro */
+  margin-top: 20px; /* Espacio superior */
+}
+
+#formacion h2 {
+  font-size: 20px; /* Tamaño más grande para el título de la sección */
+  color: #333;  /* Color oscuro */
+  border-bottom: 2px solid #ddd; /* Subrayado sutil */
+  padding-bottom: 5px;
+}
+
+#formacion h3 {
+  font-size: 16px;
+  color: #333;  /* Un poco más pequeño que el título */
+  font-weight: bold;
+  margin-top: 15px;  /* Espacio entre el título y el texto */
+}
+
+#formacion p {
+  font-size: 16px;
+  margin: 10px 0;  /* Separación entre los párrafos */
+}
+
+#formacion p strong {
+  font-weight: bold; /* Poner en negrita lo relevante, como el nombre de la institución */
+}
+
+
+/* Encabezado */
+header {
+  background-color: white;
+  color: white;
+  padding: 10px 20px;
+}
+
+h1.nombre {
+  font-size: 24px;  /* Reducimos tamaño */
+  font-weight: normal;
+  margin: 0;
+  text-align: left;
+}
+
+/* Contenedor principal */
+.contenedor {
+  display: flex;
+  max-width: 900px;
+  margin: 20px auto;
+  background: white;
   padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar (Izquierda) */
+.sidebar {
+  width: 30%;
+  padding: 20px;
+  background: #f8f8f8;
+}
+
+.foto {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
   margin-bottom: 20px;
-}img {
-  width: 200px;
-  height: auto;
-  margin-left: 100px;
+}
+
+/* Contacto */
+#contacto p {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.icon {
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+/* Habilidades */
+#habilidades ul {
+  padding: 0;
+  list-style: none;
+}
+
+.habilidad {
+  background: #ddd;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px 3px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Contenido (Derecha) */
+.contenido {
+  width: 70%;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+h3 {
+  font-family: "Times New Roman", serif;  /* Fuente diferente */
+  font-size: 18px;  /* Un poco más pequeño */
+  font-weight: normal;  /* Texto normal, sin negrita */
+  color: #555;  /* Un color gris oscuro */
+}
+.empresa {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+.fecha{
+  font-size: 12px;
+  color: #888;
+}
+#datos-adicionales p {
+  font-family: 'Georgia', serif;  /* Mismo tipo de letra */
+  font-size: 16px;                   /* Mismo tamaño de letra */
+  color: #555;                       /* Mismo color de texto */
+  line-height: 1.5;                  /* Espaciado entre líneas, opcional */
+}
+
+
+/* Footer */
+footer {
+  background-color: white;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
 }
